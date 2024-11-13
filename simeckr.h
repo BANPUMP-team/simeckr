@@ -16,7 +16,7 @@
 #define SIMECK_DERIVED_KEY_LEN 4
 #define SIMECK_R_MAX_ROUNDS 44
 
-extern uint32_t SIMECK_R_ROUNDS;
+extern uint32_t SIMECK_R_ROUNDS; // 7
 
 #define LROT32(x, r) (((x) << (r)) | ((x) >> (32 - (r))))
 
