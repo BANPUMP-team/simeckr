@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     
     // get input file and out file names
 	if (argc != 4) {
-		fprintf(stderr, "Usage: %s input-filename output-filename round\n", argv[0]);
+		fprintf(stderr, "Usage: %s input-filename output-filename rounds(7)\n", argv[0]);
 		return 0;
     }
 
@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
     }
 
     uint32_t plaintext[2], ciphertext[2];
-    SIMECK_R_ROUNDS = strtol(argv[3], NULL, 10);
+    SIMECK_R_ROUNDS = strtol(argv[3], NULL, 10); // default is 7
 
     int ret = 8;
     while(ret == 8) {
