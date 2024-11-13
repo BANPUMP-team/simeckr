@@ -1,6 +1,6 @@
 #include "simeckr.h"
 
-uint32_t SIMECK_R_ROUNDS;
+uint32_t SIMECK_R_ROUNDS 7;
 
 /* 
  * RC4D_KSA is from https://link.springer.com/chapter/10.1007/978-3-030-64758-2_2
